@@ -18,7 +18,7 @@ variable "zone" {
 variable "instance_name" {
   description = "Name for the GCE instance"
   type        = string
-  default = "msinghi-test-new"
+  default = "saas-runtime-test-new"
 }
 
 variable "machine_type" {
