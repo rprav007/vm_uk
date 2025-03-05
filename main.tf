@@ -28,9 +28,6 @@ resource "google_compute_instance" "vm_instance" {
   }
   network_interface {
     network = "default"
-    access_config {
-      // Ephemeral public IP
-    }
   }
   
   # Shielded VM configuration
